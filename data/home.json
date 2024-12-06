@@ -1,0 +1,220 @@
+{
+  "hair_cuts": [
+    {
+      "id": 1,
+      "fileName": "Men’s Haircuts",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Men’s Haircuts",
+      "category": true,
+      "contents": [
+        "Classic cuts",
+        "Modern styles",
+        "Layered cuts",
+        "Undercuts and fades"
+      ]
+    },
+    {
+      "id": 2,
+      "fileName": "Children’s Haircuts",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Children’s Haircuts",
+      "category": true,
+      "contents": ["Simple and trendy haircuts for kids"]
+    },
+    {
+      "id": 3,
+      "fileName": "Senior Citizen Haircuts",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Senior Citizen Haircuts",
+      "homePage": false,
+      "contents": ["Gentle and tailored cuts for older clients"]
+    }
+  ],
+  "Beard_Grooming": [
+    {
+      "id": 1,
+      "fileName": "Beard Trim",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Beard Trim",
+      "homePage": true,
+      "contents": ["Shaping and trimming for a neat look"]
+    },
+    {
+      "id": 2,
+      "fileName": "Beard Styling",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Beard Styling",
+      "homePage": true,
+      "contents": ["Advanced shaping and styling"]
+    },
+    {
+      "id": 3,
+      "fileName": "Shaving Services",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Shaving Services",
+      "homePage": false,
+      "contents": [
+        "Clean shave with hot towel treatment",
+        "Traditional straight razor shave"
+      ]
+    },
+    {
+      "id": 4,
+      "fileName": "Beard Coloring",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Beard Coloring",
+      "homePage": false,
+      "contents": ["Covering grays or adding highlights"]
+    }
+  ],
+  "Hair_styling&Care": [
+    {
+      "id": 1,
+      "fileName": "Hair Styling",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Hair Styling",
+      "homePage": true,
+      "contents": ["Blow-drying", "Styling with wax, gel, or pomade"]
+    },
+    {
+      "id": 2,
+      "fileName": "Hair Coloring",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Hair Coloring",
+      "homePage": true,
+      "contents": [
+        "Root touch-ups",
+        "Full hair coloring",
+        "Highlights and lowlights"
+      ]
+    },
+    {
+      "id": 3,
+      "fileName": "Hair Spa Treatments",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Hair Styling",
+      "homePage": false,
+      "contents": ["Nourishing and strengthening treatments"]
+    },
+    {
+      "id": 4,
+      "fileName": "Dandruff Treatment",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Dandruff Treatment",
+      "homePage": false,
+      "contents": ["Scalp cleansing and anti-dandruff solutions"]
+    }
+  ],
+  "Facial_Grooming_Services": [
+    {
+      "id": 1,
+      "fileName": "Facials for Men",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Facials for Men",
+      "homePage": true,
+      "contents": ["Skin rejuvenation", "Blackhead removal"]
+    },
+    {
+      "id": 2,
+      "fileName": "Face Massage",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Face Massage",
+      "homePage": true,
+      "contents": ["Relaxing face massages for better skin circulation"]
+    },
+    {
+      "id": 3,
+      "fileName": "Eyebrow Shaping",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Eyebrow Shaping",
+      "homePage": false,
+      "contents": ["Tweezing or threading"]
+    }
+  ],
+  "Special_Grooming_Packages": [
+    {
+      "id": 1,
+      "fileName": "Wedding Groom Packages",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Wedding Groom Packages",
+      "homePage": true,
+      "contents": ["Haircut, beard styling, facial, and grooming for grooms"]
+    },
+    {
+      "id": 2,
+      "fileName": "Event Ready Services",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Event Ready Services",
+      "homePage": true,
+      "contents": ["Quick styling for special occasions"]
+    }
+  ],
+  "Hair_Treatments": [
+    {
+      "id": 1,
+      "fileName": "Hair_Fall_Treatment",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Hair Fall Treatment",
+      "homePage": true,
+      "contents": ["Anti-hair loss solutions"]
+    },
+    {
+      "id": 2,
+      "fileName": "Keratin_Treatment",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Keratin Treatment",
+      "homePage": true,
+      "contents": ["Smoothing and strengthening treatments"]
+    },
+    {
+      "id": 3,
+      "fileName": "Hair_Straightening",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Hair Straightening",
+      "homePage": false,
+      "contents": ["Temporary or permanent straightening"]
+    },
+    {
+      "id": 4,
+      "fileName": "Scalp_Treatment",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Scalp Treatment",
+      "homePage": false,
+      "contents": ["Deep scalp cleansing for oily or dry scalp issues"]
+    }
+  ],
+  "Add-on-Services": [
+    {
+      "id": 1,
+      "fileName": "Head_Massage",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Head Massage",
+      "homePage": true,
+      "contents": ["Oil-based or dry massage"]
+    },
+    {
+      "id": 2,
+      "fileName": "Neck_and_Shoulder_Massage",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Neck and Shoulder Massage",
+      "homePage": true,
+      "contents": ["Relaxation and stress relief"]
+    },
+    {
+      "id": 3,
+      "fileName": "Waxing",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Waxing",
+      "homePage": false,
+      "contents": ["Removal of unwanted hair (e.g., nose, ear, or face waxing)"]
+    },
+    {
+      "id": 4,
+      "fileName": "Hair_Wash",
+      "filePath": "./services/home/Classic_Shirt.jpg",
+      "title": "Hair Wash",
+      "homePage": false,
+      "contents": ["Shampoo and conditioning"]
+    }
+  ]
+}

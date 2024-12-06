@@ -17,17 +17,17 @@
   --color-2: #8c8c8c;
   --color-3: #6b6b6b;
   --color-4: #222;
-  --fof-0: "Poppins", sans-serif;
+  /* --fof-0: "Poppins", sans-serif;
   --fof-1: "Jokerman", cursive;
   --fof-2: "Vivaldi", sans-serif;
   --fof-3: "Forte", monospace;
-  --fof-4: "Bauhaus 93", cursive;
+  --fof-4: "Bauhaus 93", cursive; */
 
-  /* --fof-0: Poppins; */
-  /* --fof-1: Jokerman; */
-  /* --fof-2: Vivaldi; */
-  /* --fof-3: Forte; */
-  /* --fof-4: 'Bauhaus 93; */
+  --fof-0: Poppins;
+  --fof-1: Jokerman;
+  --fof-2: Vivaldi;
+  --fof-3: Forte;
+  --fof-4: 'Bauhaus 93';
   --bg-color-0: #382c26;
   /* --bg-color-0: #117088; */
 }
