@@ -27,7 +27,7 @@
   --fof-1: Jokerman;
   --fof-2: Vivaldi;
   --fof-3: Forte;
-  --fof-4: 'Bauhaus 93';
+  --fof-4: "Bauhaus 93";
   --bg-color-0: #382c26;
   /* --bg-color-0: #117088; */
 }
@@ -499,13 +499,18 @@ main {
 .service-box .content_part {
   position: absolute;
   bottom: -45px;
-  left: 20px;
+  left: 10px;
   width: 200px;
   height: 50px;
-  padding: 5px 0;
+  padding: 5px 10px;
   background: white;
   text-align: center;
   border: 1px solid silver;
+}
+
+.service-box .content_part h4 {
+  color: var(--color-3);
+  font-size: 15px;
 }
 
 .content-part {
@@ -549,7 +554,9 @@ main {
   margin: auto;
   gap: 20px;
   padding-top: 50px;
+  margin-top: 50px;
   padding-bottom: 40px;
+  /* width: 90%; */
 }
 
 .services_section_area_2 {
@@ -557,33 +564,59 @@ main {
 }
 
 .services_section_area .services_box_2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 10px 20px;
-  width: 400px;
+  width: 800px;
   gap: 5px;
-  border-bottom: 1px solid gainsboro;
+  /* border-bottom: 1px solid gainsboro; */
 }
 
 .services_section_area .services_box_2 div {
   width: 350px;
 }
 .services_section_area .services_box_2 h3 {
-  color: var(--color-1);
+  color: var(--color-3);
 }
 .services_section_area .services_box_2 p {
   color: var(--color-2);
   font-size: 14px;
 }
 
+.services_box_2 ul {
+  margin-left: 20px;
+}
+.services_box_2 ul li {
+  font-size: 14px;
+  color: var(--color-2);
+}
+
 .services_section_area .services_box {
   width: 230px;
   height: 260px;
   background-color: crimson;
-  border: 1px solid silver;
 }
 
+.services_section_area .services_big_box {
+  padding: 40px 0;
+  /* border: 1px solid silver; */
+  background-color: whitesmoke;
+}
+.services_section_area .services_big_box h1 {
+  margin-left: 20px;
+  color: var(--color-1) !important;
+}
+
+.services_section_area .services_big_box .services_big_box2 {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  margin: auto;
+}
+
+.services_section_area .services_big_box .services_big_box2 .services_box_2 {
+  width: 400px;
+}
 /* Services section end */
 
 /* About Section start */
@@ -793,7 +826,7 @@ footer p svg {
 .gallery-box {
   width: 240px;
   height: 260px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .gallery-box img {
   width: 100%;

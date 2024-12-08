@@ -31,7 +31,7 @@
 .btn {
   padding: 10px 18px;
   font-weight: 600;
-  background: linear-gradient(#1c1c1c, var(--bg-color));
+  background: linear-gradient(#1c1c1c, var(--bg-color-0));
   border-radius: 8px;
   border: none;
   cursor: pointer;

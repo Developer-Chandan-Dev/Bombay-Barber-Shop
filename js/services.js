@@ -5,7 +5,7 @@ homePageData();
 let contentArray = [];
 
 function homePageData() {
-  fetch("./data/home.json")
+  fetch("../data/services.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Failed to load JSON file");
@@ -20,10 +20,10 @@ function homePageData() {
 
 const createContent = (inputObj) => {
   // const container = document.getElementById("container");
-
+    
+  console.log(inputObj);
   for (const key in inputObj) {
     if (Array.isArray(inputObj[key])) {
-      console.log(inputObj);
       // Created big services box
       let services_big_box = document.createElement("div");
       services_big_box.classList.add("services_big_box");
@@ -39,32 +39,32 @@ const createContent = (inputObj) => {
 
       // Iterate over objects inside the array
       inputObj[key].forEach((obj) => {
-        if (obj.homePage) {
-          // Only include objects where enabled is true
-          // Create subheading for each enabled object
+        // if (obj.homePage) {
+        // Only include objects where enabled is true
+        // Create subheading for each enabled object
 
-          let services_box_2 = document.createElement("div");
-          services_box_2.classList.add("services_box_2");
+        let services_box_2 = document.createElement("div");
+        services_box_2.classList.add("services_box_2");
 
-          services_big_box.appendChild(services_big_box2);
+        services_big_box.appendChild(services_big_box2);
 
-          services_big_box2.appendChild(services_box_2);
-          const subHeading = document.createElement("h3");
-          subHeading.textContent = obj.title;
-          services_box_2.appendChild(subHeading);
+        services_big_box2.appendChild(services_box_2);
+        const subHeading = document.createElement("h3");
+        subHeading.textContent = obj.title;
+        services_box_2.appendChild(subHeading);
 
-          // Create a list for the items
-          if (Array.isArray(obj.contents) && obj.contents.length > 0) {
-            const list = document.createElement("ul");
-            obj.contents.forEach((item) => {
-              const listItem = document.createElement("li");
-              listItem.textContent = item; // Add each item as a list item
-              list.appendChild(listItem);
-            });
+        // Create a list for the items
+        if (Array.isArray(obj.contents) && obj.contents.length > 0) {
+          const list = document.createElement("ul");
+          obj.contents.forEach((item) => {
+            const listItem = document.createElement("li");
+            listItem.textContent = item; // Add each item as a list item
+            list.appendChild(listItem);
+          });
 
-            services_box_2.appendChild(list);
-          }
+          services_box_2.appendChild(list);
         }
+        // }
       });
     }
   }
