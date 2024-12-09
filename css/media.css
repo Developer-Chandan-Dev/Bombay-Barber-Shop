@@ -42,6 +42,10 @@
   .slider .main-image-container {
     height: 550px;
   }
+  .group_section .group {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 860px) {
@@ -279,10 +283,7 @@
   .hero_section_area p {
     font-size: 14px;
   }
-  .group_section .group {
-    width: 100%;
-    height: auto;
-  }
+
 }
 
 @media (max-width: 400px) {
