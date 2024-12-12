@@ -13,7 +13,6 @@ function homePageData() {
       return response.json();
     })
     .then((data) => {
-      // console.log(data);
       createContent(data);
     });
 }
@@ -23,7 +22,6 @@ const createContent = (inputObj) => {
 
   for (const key in inputObj) {
     if (Array.isArray(inputObj[key])) {
-      console.log(inputObj);
       // Created big services box
       let services_big_box = document.createElement("div");
       services_big_box.classList.add("services_big_box");
